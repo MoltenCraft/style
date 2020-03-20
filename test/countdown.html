@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/dist/main.css">
+    <link href="./assets/css/icons.css" rel="stylesheet">
+    <title>MoltenStyle Countdown Test</title>
+</head>
+<body>
+    <!-- UIKit Countdown -->
+    <div class="uk-container">
+        <br>
+        <div class="uk-grid-small uk-child-width-auto uk-margin" uk-grid uk-countdown="date: 2020-03-26T13:18:16+00:00">
+            <div>
+                <div class="uk-countdown-number uk-countdown-days"></div>
+            </div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-hours"></div>
+            </div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-minutes"></div>
+            </div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+            </div>
+        </div>
+        <br>
+        <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2020-03-26T13:18:16+00:00">
+            <div>
+                <div class="uk-countdown-number uk-countdown-days"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-hours"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-minutes"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+            </div>
+            <div class="uk-countdown-separator">:</div>
+            <div>
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- UIKit JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

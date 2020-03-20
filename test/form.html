@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/dist/main.css">
+    <link href="./assets/css/icons.css" rel="stylesheet">
+    <title>MoltenStyle Form Test</title>
+</head>
+<body>
+    <!-- UIKit Form -->
+    <div class="uk-container">
+        <br>
+        <form>
+            <fieldset class="uk-fieldset">
+        
+                <legend class="uk-legend">Legend</legend>
+        
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Input">
+                </div>
+        
+                <div class="uk-margin">
+                    <select class="uk-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+        
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                </div>
+
+            </fieldset>
+        </form>
+        <br>
+        <div class="uk-margin">
+            <input class="uk-input uk-form-danger uk-form-width-medium" type="text" placeholder="form-danger" value="form-danger">
+        </div>
+        
+        <div class="uk-margin">
+            <input class="uk-input uk-form-success uk-form-width-medium" type="text" placeholder="form-success" value="form-success">
+        </div>
+        
+        <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="disabled" value="disabled" disabled>
+        </div>
+        <br>
+        <form>
+
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Large">
+            </div>
+        
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-medium" type="text" placeholder="Default">
+            </div>
+        
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Small">
+            </div>
+        
+        </form>
+        <br>
+        <form>
+
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-large" type="text" placeholder="Large">
+            </div>
+        
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-medium" type="text" placeholder="Medium">
+            </div>
+        
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-small" type="text" placeholder="Small">
+            </div>
+        
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-xsmall" type="text" placeholder="X-Small">
+            </div>
+        
+        </form>
+        <br>
+        <form class="uk-form-horizontal uk-margin-large">
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Text</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+                </div>
+            </div>
+        
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-select">Select</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="form-horizontal-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </div>
+        
+        </form>
+        <br>
+        <form>
+
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                    <input class="uk-input" type="text">
+                </div>
+            </div>
+        
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                    <input class="uk-input" type="text">
+                </div>
+            </div>
+        
+        </form>
+        <br>
+        <form>
+
+            <div class="uk-margin">
+                <div uk-form-custom>
+                    <input type="file">
+                    <button class="uk-button uk-button-default" type="button" tabindex="-1">Select</button>
+                </div>
+            </div>
+        
+            <div class="uk-margin">
+                <span class="uk-text-middle">Here is a text</span>
+                <div uk-form-custom>
+                    <input type="file">
+                    <span class="uk-link">upload</span>
+                </div>
+            </div>
+        
+            <div class="uk-margin" uk-margin>
+                <div uk-form-custom="target: true">
+                    <input type="file">
+                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
+                </div>
+                <button class="uk-button uk-button-default">Submit</button>
+            </div>
+        
+        </form>
+    </div>
+
+    <!-- UIKit JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

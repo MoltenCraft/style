@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/dist/main.css">
+    <link href="./assets/css/icons.css" rel="stylesheet">
+    <title>MoltenStyle Option Test</title>
+</head>
+<body>
+    <!-- UIKit Option -->
+    <div class="uk-container">
+        <br>
+
+        <div uk-grid>
+          <div class="uk-width-expand@m">
+            <div class="ms-option content">
+              <select>
+                <option value="0">Content: All</option>
+                <option value="1">Shadowlands</option>
+                <option value="2">Battle For Azeroth</option>
+                <option value="3">Legion</option>
+                <option value="4">Warlords of Dreanor</option>
+                <option value="5">Mist of Pandaria</option>
+                <option value="6">Cataclysm</option>
+                <option value="7">Wrath of the Lich King</option>
+                <option value="8">The Burning Crusade</option>
+                <option value="9">Vanilla (Retail)</option>
+                <option value="10">Classic</option>
+              </select>
+            </div>
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="ms-option type">
+              <select>
+                <option value="0">Type: All</option>
+                <option value="1">Herb</option>
+                <option value="2">Disenchant</option>
+                <option value="3">Cloth</option>
+                <option value="4">Leather</option>
+                <option value="5">Ore</option>
+                <option value="6">Fish</option>
+                <option value="7">Meat</option>
+              </select>
+            </div>
+          </div>
+          <div class="uk-width-auto@m">
+            <button class="uk-button uk-button-default">Find</button>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- Local Utility JS Files -->
+    <script src="./assets/js/util.js"></script>
+    <!-- UIKit JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

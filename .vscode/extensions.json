@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "zhuangtongfa.material-theme",
+        "vscode-icons-team.vscode-icons",
+        "coenraads.bracket-pair-colorizer",
+        "christian-kohler.path-intellisense",
+        "mrmlnc.vscode-less",
+        "ecmel.vscode-html-css",
+        "mrcrowl.easy-less",
+        "anseki.vscode-color",
+        "ritwickdey.liveserver",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "wayou.vscode-todo-highlight",
+        "eamodio.gitlens"
+    ]
+}

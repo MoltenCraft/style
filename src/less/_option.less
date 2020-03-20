@@ -1,0 +1,66 @@
+.ms-option {
+  position: relative;
+  font-family: @ms-font-family;
+  &.content {
+    max-width: 270px;
+  }
+  &.type {
+    max-width: 150px;
+  }
+  select {
+    display: none;
+  }
+}
+
+.select-selected {
+  background-color: @ms-body-color-dark;
+  border-radius: 10px;
+  box-shadow: @ms-theme-shadow-dark;
+  &::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: "\f0dd";
+    top: 5px;
+    right: 20px;
+    width: 0;
+    height: 0;
+  }
+  &.select-arrow-active:after {
+    content:"\f0dd";
+    top: 36px;
+    right: 10px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-items {
+  position: absolute;
+  background-color: @ms-body-color-dark;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
