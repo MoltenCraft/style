@@ -20,12 +20,12 @@
       "groupPR": "Update ${dependency} in group ${group} to the latest!"
     }
   },
-  "homepage": "https://github.com/kendinikertenkelebek/MoltenStyle#readme",
+  "homepage": "https://github.com/MoltenCraft/style#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kendinikertenkelebek/MoltenStyle.git",
+    "url": "git+https://github.com/MoltenCraft/style.git",
     "bugs": {
-      "url": "https://github.com/kendinikertenkelebek/MoltenStyle/issues"
+      "url": "https://github.com/MoltenCraft/style/issues"
     }
   },
   "author": "Yankı Küçük <kendinikertenkelebek@me.com> (https://github.com/kendinikertenkelebek)",
