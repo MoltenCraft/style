@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "",
   "keywords": [],
-  "main": "./src/less/main.less",
-  "scripts": {
-    "test": "test"
-  },
+  "main": ".src/less/_main.less",
+  "style": "src/build/moltenstyle.css",
   "devDependencies": {
-    "uikit": "^3.3.7"
+    "less": "^3.11.3",
+    "prettier": "2.0.5",
+    "uikit": "^3.5.4"
   },
   "greenkeeper": {
     "prTitles": {
@@ -20,12 +20,12 @@
       "groupPR": "Update ${dependency} in group ${group} to the latest!"
     }
   },
-  "homepage": "https://github.com/MoltenCraft/style#readme",
+  "homepage": "https://github.com/kendinikertenkelebek/MoltenStyle#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoltenCraft/style.git",
+    "url": "git+https://github.com/kendinikertenkelebek/MoltenStyle.git",
     "bugs": {
-      "url": "https://github.com/MoltenCraft/style/issues"
+      "url": "https://github.com/kendinikertenkelebek/MoltenStyle/issues"
     }
   },
   "author": "Yankı Küçük <kendinikertenkelebek@me.com> (https://github.com/kendinikertenkelebek)",
