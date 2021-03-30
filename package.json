@@ -6,9 +6,9 @@
   "main": ".src/less/_main.less",
   "style": "src/build/moltenstyle.css",
   "devDependencies": {
-    "less": "^3.11.3",
-    "prettier": "2.0.5",
-    "uikit": "^3.5.4"
+    "less": "^4.1.1",
+    "prettier": "^2.2.1",
+    "uikit": "^3.6.18"
   },
   "greenkeeper": {
     "prTitles": {

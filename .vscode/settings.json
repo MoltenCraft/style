@@ -13,7 +13,7 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "vsicons.dontShowNewVersionMessage": true,
     "vsicons.projectDetection.autoReload": true,
     "path-intellisense.autoSlashAfterDirectory": true,
@@ -22,6 +22,7 @@
     "npm.autoDetect": "on",
     "npm.runSilent": false,
     "less.compile": {
+        "math": "always",
         "main": ["${workspaceRoot}/src/less/moltenstyle.less"],
         "out": "${workspaceRoot}/src/build/",
         "compress": true,
